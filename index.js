@@ -10,7 +10,7 @@ const app=express();
 app.use(bodyParser.json());
 app.use(cors());
 app.use(passport.initialize());
-app.use('/api',userrouter);
+app.use('/api',userrouter); 
 
 //error validation
 

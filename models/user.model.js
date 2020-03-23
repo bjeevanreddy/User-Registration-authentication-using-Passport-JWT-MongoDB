@@ -1,7 +1,7 @@
 const mongoose=require('mongoose');
 const bcryptjs=require('bcryptjs');
 const jwt=require('jsonwebtoken');
-const db=require('./db');
+//const db=require('./db');
 let userschema=new mongoose.Schema({
     username:{
         type:String,

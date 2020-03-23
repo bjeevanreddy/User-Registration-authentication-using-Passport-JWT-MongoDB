@@ -19,7 +19,7 @@ const userController = {
                 {
                     res.send(doc);
                 }else{
-                    if(err.code == 11000) {res.send(["Duplicate email"]);}
+                    if(err.code == 11000) {res.send(["Duplicate Data"]);}
                     else {
                         return next(err);
                     }
